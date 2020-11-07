@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo2 {
+public class Ejemplo4 {
 
     public static void main(String[] args) {
         // Ingreso de valores por teclado
@@ -22,6 +22,7 @@ public class Ejemplo2 {
         // declarar las variables
         String nombreAsignatura1;
         String nombreAsignatura2;
+        String nombreEstdiante;
         double notaAsignatura1;
         double notaAsignatura2;
         
@@ -36,7 +37,7 @@ public class Ejemplo2 {
         notaAsignatura2 = entrada.nextDouble();
         
         System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
-                + "Nota 2: %.2f\nNombre de estudian",
+                + "Nota 2: %.2f\nNombre del Estudiante: %s\n",
                 nombreAsignatura1,
                 notaAsignatura1,
                 nombreAsignatura2,
